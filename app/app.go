@@ -106,6 +106,7 @@ import (
 	evmchainmodule "github.com/Akagi201/evmchain/x/evmchain"
 	evmchainmodulekeeper "github.com/Akagi201/evmchain/x/evmchain/keeper"
 	evmchainmoduletypes "github.com/Akagi201/evmchain/x/evmchain/types"
+
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 
 	appparams "github.com/Akagi201/evmchain/app/params"
