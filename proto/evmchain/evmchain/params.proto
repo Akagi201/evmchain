@@ -1,0 +1,12 @@
+syntax = "proto3";
+package akagi201.evmchain.evmchain;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/Akagi201/evmchain/x/evmchain/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+package akagi201.evmchain.evmchain;
+
+option go_package = "github.com/Akagi201/evmchain/x/evmchain/types";
+
+// Msg defines the Msg service.
+service Msg {}
