@@ -1,0 +1,11 @@
+syntax = "proto3";
+package akagi201.evmchain.evmchain;
+
+option go_package = "github.com/Akagi201/evmchain/x/evmchain/types";
+
+message Post {
+  uint64 id = 1;
+  string title = 2; 
+  string body = 3; 
+  string creator = 4;
+}
